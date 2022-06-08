@@ -1,0 +1,9 @@
+CREATE table tbl_board(
+	bno INT NOT NULL auto_increment,
+    title varchar(200) NOT NULL,
+    content TEXT NULL,
+    writer varchar(50) NOT NULL,
+    regdate timestamp not null default now(),
+    viewcnt INT default 0,
+	primary key (bno)
+);
