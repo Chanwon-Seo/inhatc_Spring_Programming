@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="com.inhatc.domain"/> <!-- 이 패키지에 있는 모든 것을 동맹맺겠다. -->
+	</typeAliases>
+</configuration>
